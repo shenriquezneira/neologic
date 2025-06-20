@@ -119,6 +119,8 @@
 
         .about-us .card:hover {
             transform: translateY(-0.625rem);
+             border-color: var(--cta-accent-blue);
+            box-shadow: 0 0.5rem 1.5625rem rgba(0, 123, 255, 0.2);
         }
 
         .about-us .card-title {
@@ -132,6 +134,62 @@
             font-size: 1.1em;
             color: var(--text-color);
             margin: 0;
+        }
+
+     /* Nuevo estilo para la sub-sección de valores */
+        .values-section {
+            margin-top: 5rem; /* Espacio superior para separar de Misión/Visión */
+            padding-top: 3rem; /* Padding interno */
+            border-top: 1px solid rgba(250, 250, 250, 0.1); /* Separador visual */
+        }
+
+        .values-section h3 {
+            color: var(--corporate-light-grey);
+            font-size: 2.2em;
+            margin-bottom: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .value-item {
+            background-color: var(--card-background);
+            padding: 2rem;
+            border-radius: 0.625rem;
+            box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.2);
+            text-align: left;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: flex-start; /* Alinea icono y texto arriba */
+            gap: 1rem; /* Espacio entre icono y texto */
+        }
+
+        .value-item:hover {
+            transform: translateY(-0.5rem);
+            border-color: var(--cta-accent-blue);
+            box-shadow: 0 0.5rem 1.5625rem rgba(0, 123, 255, 0.2);
+        }
+
+        .value-item i {
+            font-size: 2.5em; /* Tamaño del icono */
+            color: var(--cta-accent-blue);
+            margin-right: 0.5rem;
+            flex-shrink: 0; /* Evita que el icono se encoja */
+        }
+
+        .value-item h4 {
+            color: var(--corporate-light-grey);
+            font-size: 1.5em;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .value-item p {
+            font-size: 1em;
+            color: var(--text-color);
+            margin-bottom: 0; /* Elimina margen inferior extra */
         }
 
         /* Nuestros Servicios */
