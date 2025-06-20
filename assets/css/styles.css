@@ -329,10 +329,20 @@
             box-shadow: 0 0.625rem 1.25rem rgba(105, 105, 105, 0.6);
             background: linear-gradient(45deg, var(--corporate-dark-grey), var(--corporate-light-grey));
         }
+ /* Carrusel de Proyectos */
+        .projects-carousel {
+            background-color: var(--background-dark);
+            text-align: center;
+        }
 
+        .carousel-item img {
+            border-radius: 0.75rem;
+            box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+        }
         /* Testimonios */
         .testimonials {
-            background-color: var(--background-dark); /* Fondo de sección testimonios */
+            background-color: var(--corporate-dark-grey); /* Fondo de sección testimonios */
         }
 
         .testimonial-item {
@@ -366,7 +376,7 @@
 
         /* Contacto */
         .contact {
-            background-color: var(--corporate-dark-grey); /* Fondo de sección contacto */
+            background-color: var(--background-dark); /* Fondo de sección contacto */
             color: var(--corporate-light-grey);
         }
 
@@ -485,7 +495,7 @@
 
         /* Footer */
         footer {
-            background-color: var(--background-dark);
+            background-color: var(--corporate-dark-grey);
             color: var(--text-color);
             text-align: center;
             padding: 1.5rem;
