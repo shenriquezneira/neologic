@@ -374,6 +374,31 @@
             font-size: 1.1em;
         }
 
+          /* Nuevo estilo para el botón de WhatsApp */
+        .btn-whatsapp {
+            background-color: #25D366; /* Color de WhatsApp */
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border: none;
+            display: inline-flex; /* Para alinear el icono y el texto */
+            align-items: center;
+            gap: 0.5rem; /* Espacio entre icono y texto */
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1DA851; /* Tono más oscuro al pasar el mouse */
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.6);
+            color: white; /* Asegurar que el color del texto no cambie */
+        }
+
+
         /* Contacto */
         .contact {
             background-color: var(--background-dark); /* Fondo de sección contacto */
